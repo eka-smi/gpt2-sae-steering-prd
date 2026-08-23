@@ -1,0 +1,77 @@
+{
+  "protocol": {
+    "alpha_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "concepts": {
+      "paris": {
+        "feature_index": 2252,
+        "target_phrase": " Paris",
+        "prompts": [
+          "The newly appointed ambassador began her assignment in",
+          "The overnight express crossed the border and arrived in",
+          "The international design conference was hosted in",
+          "The historian's archive described his long residence in",
+          "After the premiere, the director returned to",
+          "The European branch of the organisation was based in",
+          "Her research fellowship allowed her to spend a year in",
+          "The art dealer opened a second gallery in"
+        ],
+        "control_phrases": [
+          " London",
+          " Rome",
+          " Tokyo",
+          " Berlin",
+          " Madrid"
+        ]
+      },
+      "ocean": {
+        "feature_index": 24664,
+        "target_phrase": " ocean",
+        "prompts": [
+          "The expedition continued into the",
+          "The documentary examined life in the",
+          "The weather system developed above the",
+          "The researchers collected samples from the",
+          "The missing vessel was last detected in the",
+          "The map showed a route through the",
+          "The animals migrated across the",
+          "The horizon disappeared beyond the"
+        ],
+        "control_phrases": [
+          " lake",
+          " river",
+          " desert",
+          " forest",
+          " mountains"
+        ]
+      }
+    },
+    "fluency_generation_prompts": [
+      "The report explained that",
+      "After several months of discussion, the committee",
+      "In the middle of the afternoon, she",
+      "According to the latest available information,",
+      "The unexpected discovery caused the researchers to",
+      "When the meeting finally ended, everyone",
+      "The author began the next chapter by describing",
+      "Many years later, they remembered"
+    ],
+    "fluency_generation_seeds": [
+      17,
+      73
+    ],
+    "max_new_tokens": 40,
+    "temperature": 0.8,
+    "top_k": 50,
+    "layer_index": 6,
+    "hook_name": "blocks.6.hook_resid_post",
+    "reference_norm": 88.58959197998047
+  },
+  "protocol_hash": "f42001ea53eb3a372b8cf3924e336911ea26f35361283c49b1d49e558d706496"
+}

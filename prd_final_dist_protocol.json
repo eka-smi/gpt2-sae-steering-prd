@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "methods": [
+      "ordinary",
+      "full_denoising",
+      "prd"
+    ],
+    "concepts": {
+      "paris": 2252,
+      "ocean": 24664
+    },
+    "alpha_grid": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "prompts": [
+      "The report explained that",
+      "After several months of discussion, the committee",
+      "In the middle of the afternoon, she",
+      "According to the latest available information,",
+      "The unexpected discovery caused the researchers to",
+      "When the meeting finally ended, everyone",
+      "The author began the next chapter by describing",
+      "Many years later, they remembered"
+    ],
+    "seeds": [
+      17,
+      73
+    ],
+    "max_new_tokens": 40,
+    "temperature": 0.8,
+    "top_k": 50,
+    "selected_beta": 1.0,
+    "hook_name": "blocks.6.hook_resid_post"
+  },
+  "protocol_hash": "6012a0d17c45c5d184e2d7fac17fe2d67fbf20eda837894a222ec0a504b94540"
+}

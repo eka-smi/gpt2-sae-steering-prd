@@ -1,0 +1,65 @@
+{
+  "features": {
+    "paris": 2252,
+    "ocean": 24664
+  },
+  "alpha_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "methods": [
+    "ordinary",
+    "full_denoising",
+    "prd"
+  ],
+  "selected_beta": 1.0,
+  "prompts": {
+    "paris": [
+      "The international fashion summit will take place in",
+      "The art historian accepted a position in",
+      "Their connecting flight departed for",
+      "The ambassador's official residence was located in",
+      "The luxury brand presented its autumn collection in",
+      "The architect spent the final decade of his career in",
+      "The high-speed train arrived shortly before noon in",
+      "The committee selected the next conference location as"
+    ],
+    "ocean": [
+      "The research submarine descended into the",
+      "The hurricane gathered strength over the",
+      "The naval fleet crossed the",
+      "The drifting buoy transmitted measurements from the",
+      "The isolated volcanic island stood in the",
+      "The marine biologists began their survey of the",
+      "The sailors lost sight of land after entering the",
+      "The satellite tracked currents across the"
+    ]
+  },
+  "targets": {
+    "paris": " Paris",
+    "ocean": " ocean"
+  },
+  "controls": {
+    "paris": [
+      " London",
+      " Rome",
+      " Berlin",
+      " Madrid",
+      " Vienna"
+    ],
+    "ocean": [
+      " lake",
+      " river",
+      " desert",
+      " forest",
+      " valley"
+    ]
+  },
+  "development_protocol_sha256": "90acc934c107d9067a95e258c6ae205abac0374ac94ebbf5b2b6efe9f8a01b60",
+  "beta_will_not_be_changed": true,
+  "sha256": "224d7e0727d5ad95afac5dcb687f94287ea5156de46f534547058c72981e7c09"
+}

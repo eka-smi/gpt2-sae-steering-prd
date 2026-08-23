@@ -1,0 +1,92 @@
+{
+  "alpha_hat": 0.2,
+  "beta_candidates": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "feature_indices": {
+    "opera": 28999,
+    "banana": 31031,
+    "blanket": 31117,
+    "football": 11220
+  },
+  "prompts": {
+    "opera": [
+      "The renowned soprano built her reputation in",
+      "The composer completed his final",
+      "The national company announced a new",
+      "The audience entered the theatre to watch an",
+      "The conductor became especially celebrated for",
+      "The dramatic work for singers and orchestra was an"
+    ],
+    "banana": [
+      "Before the race, the runner quickly ate a",
+      "The baker added one ripe",
+      "Her preferred fruit for the smoothie was a",
+      "The zoo keeper gave the monkey a",
+      "The potassium-rich snack she selected was a",
+      "For dessert, the child was offered a"
+    ],
+    "blanket": [
+      "At bedtime, he covered his legs with a",
+      "The emergency shelter gave every resident a",
+      "The folded woollen item was a",
+      "To keep the infant warm, the nurse used a",
+      "The hotel closet held an additional",
+      "During the freezing journey, she wrapped herself in a"
+    ],
+    "football": [
+      "The athlete was best known for playing",
+      "The weekend television broadcast featured live",
+      "The national association governed professional",
+      "The enormous stadium had been constructed for",
+      "The coach spent several decades working in",
+      "At school, her favourite competitive sport was"
+    ]
+  },
+  "targets": {
+    "opera": " opera",
+    "banana": " banana",
+    "blanket": " blanket",
+    "football": " football"
+  },
+  "controls": {
+    "opera": [
+      " film",
+      " ballet",
+      " concert",
+      " play"
+    ],
+    "banana": [
+      " apple",
+      " orange",
+      " sandwich",
+      " cookie"
+    ],
+    "blanket": [
+      " coat",
+      " pillow",
+      " towel",
+      " sheet"
+    ],
+    "football": [
+      " basketball",
+      " tennis",
+      " baseball",
+      " hockey"
+    ]
+  },
+  "selection_rule": {
+    "required_positive_concepts": 4,
+    "minimum_mean_target_retention": 0.9,
+    "selection": "Among eligible beta values choose the smallest mean PRD/ordinary perplexity ratio",
+    "fallback": "If no beta is eligible, choose the maximum of retention - 2*max(0, ppl_ratio-1)"
+  },
+  "final_features_not_used": {
+    "paris": 2252,
+    "ocean": 24664
+  },
+  "sha256": "90acc934c107d9067a95e258c6ae205abac0374ac94ebbf5b2b6efe9f8a01b60"
+}

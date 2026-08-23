@@ -1,0 +1,17 @@
+{
+  "selected_beta": 1.0,
+  "selection_mode": "predeclared_eligible_rule",
+  "development_alpha_hat": 0.2,
+  "development_protocol_sha256": "90acc934c107d9067a95e258c6ae205abac0374ac94ebbf5b2b6efe9f8a01b60",
+  "final_features_used": false,
+  "selected_row": {
+    "beta": 1.0,
+    "mean_target_retention": 0.9586352659160968,
+    "minimum_target_retention": 0.8657339955837181,
+    "positive_concepts": 4.0,
+    "mean_specificity": 1.455862488597632,
+    "mean_ppl_ratio_to_ordinary": 0.9820525403102016,
+    "mean_log_ppl_gain": 0.01811046868804805,
+    "eligible": true
+  }
+}
