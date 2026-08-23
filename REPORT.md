@@ -50,6 +50,7 @@ h_{\mathrm{steer}} = h + \alpha v,
 
 Таким образом, выбор гиперпараметров выполнялся на `opera`, `banana`, `blanket` и `football`, а финальная проверка — на не использованных при выборе `Paris` и `ocean`.
 
+
 ## 4. Метрики
 
 ### 4.1 Concept score
